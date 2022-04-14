@@ -36,12 +36,15 @@ int main() {
 		return 0;
 	}
 	
-	struct capricorn{
+	struct horoscopes{
 		skills,
 		storng_sides,
 		weak_sides,
 		potencial_future
 		};
+	struct horoscopes capricorn[1];
+	
+		
 	return 0;
 	
 }
