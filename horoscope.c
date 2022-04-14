@@ -43,7 +43,7 @@ int main() {
 		potencial_future
 		};
 	struct horoscopes capricorn[1];
-	
+	strcpy(capricorn.skills,"example skills");
 		
 	return 0;
 	
