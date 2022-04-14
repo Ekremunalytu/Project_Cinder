@@ -43,7 +43,10 @@ int main() {
 		potencial_future
 		};
 	struct horoscopes capricorn[1];
-	strcpy(capricorn.skills,"example skills");
+	
+	struct *pointer_capricorn = &capricorn;
+	
+	strcpy(pointer_capricorn->skills,"example skills");
 		
 	return 0;
 	
