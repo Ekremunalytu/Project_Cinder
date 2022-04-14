@@ -35,6 +35,13 @@ int main() {
 		printf("Please enter a valid number!!!\n");
 		return 0;
 	}
+	
+	struct capricorn{
+		skills,
+		storng_sides,
+		weak_sides,
+		potencial_future
+		};
 	return 0;
 	
 }
